@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+
+.dark-theme {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
+button {
+    font-size: 2rem;
+    cursor: pointer;
+}
